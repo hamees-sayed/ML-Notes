@@ -33,6 +33,6 @@ $\rightarrow$ When the desired output is discrete.
 Example: Credit scoring.
 Differentiation between low-risk and high-risk customers from their income and savings.
 
-![Alt text](image.png)
+![Alt text](./intro-to-ml/../../images/image.png)
 
 From the observation, it can be noticed that if income > $\theta_1$ AND savings > $\theta_2$ THEN <span style="color: green;">low-risk</span> ELSE <span style="color: red;">high-risk</span>.
