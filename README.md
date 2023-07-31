@@ -1,1 +1,1 @@
-# maths-for-ml
+# My Machine Learning Notes
