@@ -29,10 +29,28 @@ Effective when labelled data is limited.
 # Regression and Classification
 
 ## Classification:
-$\rightarrow$ When the desired output is discrete. 
+$\rightarrow$ Predicting a categorical output such as if an email is spam or not, image is cat or dog, sentiment of text (positive, negative, neutral), etc. 
 Example: Credit scoring.
 Differentiation between low-risk and high-risk customers from their income and savings.
 
-![Alt text](./intro-to-ml/../../images/image.png)
+![img](../images/classification.png)
 
 From the observation, it can be noticed that if income > $\theta_1$ AND savings > $\theta_2$ THEN <span style="color: green;">low-risk</span> ELSE <span style="color: red;">high-risk</span>.
+
+## Regression:
+the goal is to predict a continuous output or a numerical value. In other words, it involves modeling the relationship between input variables and a continuous target variable. The output of a regression model can be any real number within a certain range. For example, predicting house prices, stock prices, or a person's age are all regression problems.
+
+![img](../images/regression.png)
+
+Example: Price of a used car   
+$x:$ car attributes (mileage)  
+$y:$ price
+
+> $y=f(x)$ 
+$f(\space) \space model, x \space parameters$ 
+
+---
+# Feature
+A Feature, also known as a feature variable or attribute, refers to an individual measurable property or characteristic of the data used to make predictions or train a machine learning model. Features are essential components of the input data that help the model understand patterns, relationships, and information relevant to the learning task.
+
+For example, let's consider a dataset of houses with various properties like size, number of bedrooms, number of bathrooms, location, and age. In this case, each property such as "size," "number of bedrooms," "number of bathrooms," "location," and "age" is a feature.
