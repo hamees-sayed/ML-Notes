@@ -20,17 +20,17 @@ Suppose we want to make prediction of a value for a target feature on example $x
   ## Measures of Error
 
   1. Absolute Error: $\frac{1}{n}|f(x) - y|$
-  2. Sum of Squared Error (MSE): $\frac{1}{n}\sum_{i=1}^n(f(x) - y)^2$
-  3. Number of Miscalculations: $\frac{1}{n}\sum_{i=1}^n\delta(f(x) - y)$
+  2. Sum of Squared Error (MSE): $\frac{1}{n}\Sigma_{i=1}^n(f(x) - y)^2$
+  3. Number of Miscalculations: $\frac{1}{n}\Sigma_{i=1}^n\delta(f(x) - y)$
   4. $\delta(f(x), y)$ is 1 if $f(x) \neq y$, and $0$ otherwise.  
 \
 ![confusion_matrix](../images/confusion_matrix.png)
 - Accuracy: $\frac{(TP + PN)}{(P+N)}$  
-<br/>
+
 - Precision: $\frac{TP}{(TP+FP)}$  
-<br/>
+
 - Accuracy: $\frac{TP}{P}$  
-<br/>
+
 - Accuracy: $\frac{FP}{N}$  
 
 ## Sample Error and True Error  
