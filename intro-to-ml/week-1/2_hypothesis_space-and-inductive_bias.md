@@ -8,7 +8,7 @@ Probability estimation $\rightarrow$ $f(x) =$ Probability of $x$
 
 ## Feature Space:  
 Every $+$ and $-$ sign is an instance.   
-![img](../images/feature_space.png)
+<img src="../images/feature_space.png" />  
 
 We can assume labels to the right of the function are mainly negative and on the right are mainly positive. 
 
