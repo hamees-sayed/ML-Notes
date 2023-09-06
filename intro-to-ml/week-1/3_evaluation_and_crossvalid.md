@@ -26,7 +26,7 @@ Suppose we want to make prediction of a value for a target feature on example $x
 
 <img src="../images/confusion_matrix.png" />  
 
-- Accuracy: $\frac{(TP + PN)}{(P+N)}$  
+- Accuracy: $\frac{(TP + FN)}{(P+N)}$  
 
 - Precision: $\frac{TP}{(TP+FP)}$  
 
