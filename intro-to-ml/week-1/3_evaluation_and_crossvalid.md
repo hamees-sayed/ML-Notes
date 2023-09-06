@@ -24,7 +24,7 @@ Suppose we want to make prediction of a value for a target feature on example $x
   3. Number of Miscalculations: $\frac{1}{n}\Sigma_{i=1}^n\delta(f(x) - y)$
   4. $\delta(f(x), y)$ is 1 if $f(x) \neq y$, and $0$ otherwise.  
 \
-![confusion_matrix](../images/confusion_matrix.png)
+<img src="../images/confusion_matrix.png" />
 - Accuracy: $\frac{(TP + PN)}{(P+N)}$  
 
 - Precision: $\frac{TP}{(TP+FP)}$  
@@ -62,7 +62,6 @@ Errors in Learning are caused by:
    - 1/k of the Data is held out as a test set and remaining examples are used as training set.
 3. Compute the average test set score of the $k$ rounds.   
 
-![dataset_split](../images/k-fold_cross.png)
 <img src="../images/k-fold_cross.png"/>
 
 ## Trade off  
