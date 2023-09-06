@@ -54,7 +54,7 @@ Errors in Learning are caused by:
   - Test example is used to evaluate the learner.
 - Variance in the Estimate: The smaller the test set, the greater the expected variance.
 
-![dataset_split](../images/dataset_split.png)
+![alt](../images/dataset_split.png)
 
 ## K-fold cross validation
 1. Split the Data into $k$ equal subsets.
@@ -63,6 +63,7 @@ Errors in Learning are caused by:
 3. Compute the average test set score of the $k$ rounds.   
 
 ![dataset_split](../images/k-fold_cross.png)
+<img src="../images/k-fold_cross.png"/>
 
 ## Trade off  
 In Machine Learning there's always a tradeoff between:
