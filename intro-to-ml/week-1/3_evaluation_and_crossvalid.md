@@ -24,7 +24,8 @@ Suppose we want to make prediction of a value for a target feature on example $x
   3. Number of Miscalculations: $\frac{1}{n}\Sigma_{i=1}^n\delta(f(x) - y)$
   4. $\delta(f(x), y)$ is 1 if $f(x) \neq y$, and $0$ otherwise.  
 
-<img src="../images/confusion_matrix.png" />
+<img src="../images/confusion_matrix.png" />  
+
 - Accuracy: $\frac{(TP + PN)}{(P+N)}$  
 
 - Precision: $\frac{TP}{(TP+FP)}$  
